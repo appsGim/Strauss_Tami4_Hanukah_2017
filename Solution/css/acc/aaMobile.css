@@ -1,0 +1,221 @@
+﻿.aa-wrapper {
+    width: 100%;
+    height: 200px;
+    position: static;
+    transition: all 0.5s;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: Arial,sans-serif;
+    z-index: 9999;
+    margin-top: -200px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.aa-right-non {
+    margin-top: 0px !important;
+}
+
+.aa-icon {
+    padding-top: 0px;
+    width: 60px;
+    height: auto;
+    float: left;
+    cursor: pointer;
+}
+
+.aa-icon-btn {
+    display: block !important;
+    margin-top: 10px;
+    margin-left: 16px;
+    width: 30px !important;
+    height: 30px !important;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.aa-icon-box {
+    width: 60px;
+    height: 50px;
+}
+
+.aa-settings {
+    width: 100%;
+    height: auto;
+    background-color: #fafafa;
+    padding-bottom: 15px;
+}
+
+.aa-title {
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+
+.aa-text {
+    padding-top: 40px;
+    width: 100%;
+    color: #1a1a1a;
+    font-size: 20px;
+    text-align: center;
+}
+
+.aa-text-title {
+    font-size: 20px;
+    padding: 0 35px;
+}
+
+.aa-text-plus, .aa-text-minus {
+    display: inline-block;
+    border: 1px solid #1a1a1a;
+    background-color: #fafafa;
+    color: #1a1a1a;
+    height: 25px;
+    width: 25px;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+    .aa-text-plus:hover, .aa-text-minus:hover {
+        box-shadow: 3px 3px 5px #1a1a1a;
+    }
+
+    .aa-text-plus:active, .aa-text-minus:active {
+        background-color: #1a1a1a;
+        color: #fafafa;
+    }
+
+.aa-footer {
+    width: 100%;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+    .aa-footer ul {
+        padding: 0;
+        list-style: none;
+    }
+
+        .aa-footer ul li {
+            display: block;
+            padding: 5px 10px;
+            border: 1px solid #1a1a1a;
+            border-radius: 4px;
+            background-color: #fafafa;
+            width: 70%;
+            cursor: pointer;
+            font-size: 20px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            transition: all 0.3s;
+            direction: rtl;
+        }
+
+            .aa-footer ul li:hover {
+                box-shadow: 3px 3px 5px #1a1a1a;
+            }
+
+            .aa-footer ul li:active {
+                background-color: #1a1a1a;
+                color: #fafafa;
+            }
+
+.aa-underline {
+    text-decoration: underline !important;
+}
+
+.aa-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.7);
+    z-index: 999999;
+}
+
+.aa-pop-box {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-shadow: 6px 6px 10px #000;
+    direction: ltr;
+}
+
+.aa-pop-close {
+    width: 85%;
+    background-color: #003f87;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+}
+
+.aa-pop-body {
+    padding: 15px;
+    width: 92%;
+    padding-top: 50px;
+    box-sizing: border-box;
+    direction: rtl;
+    text-align: right;
+}
+
+.aa-pop-title {
+    font-weight: 600;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.aa-pop-bigtitle {
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.aa-pop-display {
+    display: block !important;
+}
+
+.aa-gray {
+    -webkit-filter: grayscale(1);
+    filter: gray;
+    filter: grayscale(1);
+}
+
+.aa-readFont {
+    font-family: Arial,sans-serif !important;
+}
+
+.aa-textVersion {
+    background-color: #ffffff !important;
+    background-image: none !important;
+    color: #000000 !important;
+    text-align: center !important;
+}
+
+    .aa-textVersion img {
+        display: none;
+    }
+
+    .aa-textVersion a {
+        text-decoration: underline !important;
+    }
