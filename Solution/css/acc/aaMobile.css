@@ -18,6 +18,7 @@
 
 .aa-right-non {
     margin-top: 0px !important;
+    position: relative;
 }
 
 .aa-icon {
@@ -49,7 +50,7 @@
     width: 100%;
     height: auto;
     background-color: #fafafa;
-    padding-bottom: 15px;
+    /*padding-bottom: 15px;*/
 }
 
 .aa-title {
@@ -127,6 +128,10 @@
             .aa-footer ul li:active {
                 background-color: #1a1a1a;
                 color: #fafafa;
+            }
+
+            .aa-footer ul li:last-child {
+                margin-bottom: 0 !important;
             }
 
 .aa-underline {

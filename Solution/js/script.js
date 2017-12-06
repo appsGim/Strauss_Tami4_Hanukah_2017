@@ -147,6 +147,7 @@ $(document).ready(function () {
         e.preventDefault();
         if (validateForm()) {
             //$('.thanks').fadeIn(500);
+            $('.footer').addClass('fade-out');
             $('.container').addClass('fade-out');
             setTimeout(function () { $('.wrapper').addClass('wrapper-thanks'); }, 500);
 

@@ -24,14 +24,14 @@
         // Call once to initialize
         setTimeout(scaleFont, 0);
 
-        window.addEventListener('resize', function () {
-            if (timeoutId) {
-                // Cancel the currently queued re-scale
-                clearTimeout(timeoutId);
-            }
-            // Queue size recalc
-            timeoutId = setTimeout(scaleFont, delayMS);
-        });
+        //window.addEventListener('resize', function () {
+        //    if (timeoutId) {
+        //        // Cancel the currently queued re-scale
+        //        clearTimeout(timeoutId);
+        //    }
+        //    // Queue size recalc
+        //    timeoutId = setTimeout(scaleFont, delayMS);
+        //});
     }
 
     init();

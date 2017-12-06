@@ -158,23 +158,32 @@
     });
 
     $('.aa-textVersionEvent').on('click', function () {
-        $('body').toggleClass('aa-textVersion')
-    })
+        $('body').toggleClass('aa-textVersion');
+        $('#submit').css({ color: '#fff' });
+
+        if ($('body').hasClass('aa-textVersion')) {
+            $('.text-wrapper-mobile').css({ position: 'relative' });
+        }
+        else {
+            $('.text-wrapper-mobile').css({ position: 'absolute' });
+        }
+
+    });
 
 });
 
 function invert() {
-// the css we are going to inject
+    // the css we are going to inject
     var css = 'html {-webkit-filter: invert(100%);' +
-            '-moz-filter: invert(100%);' +
-            '-o-filter: invert(100%);' +
-            '-ms-filter: invert(100%); }',
+        '-moz-filter: invert(100%);' +
+        '-o-filter: invert(100%);' +
+        '-ms-filter: invert(100%); }',
 
         head = document.getElementsByTagName('head')[0],
         style = document.createElement('style');
     style.setAttribute('class', 'invert');
 
-// a hack, so you can "invert back" clicking the bookmarklet again
+    // a hack, so you can "invert back" clicking the bookmarklet again
     if (!window.counter) {
         window.counter = 1;
     } else {
@@ -192,6 +201,6 @@ function invert() {
         style.appendChild(document.createTextNode(css));
     }
 
-//injecting the css to the head
+    //injecting the css to the head
     head.appendChild(style);
 }
