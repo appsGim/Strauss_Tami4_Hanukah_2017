@@ -358,6 +358,10 @@ iframe {
     .content p {
         padding-top: 5px;
     }
+
+    .wrapper {
+        background-position: 60% 0 !important;
+    }
 }
 
 @media(min-width: 1680px) and (max-width: 1920px) {
